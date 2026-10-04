@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1156" width="1600" height="1156">
+<defs>
+  <pattern id="tiles" width="72" height="36" patternUnits="userSpaceOnUse">
+    <rect width="72" height="36" fill="#e9e7e2"/><path d="M0 .5 H72 M.5 0 V36" stroke="#d2cec6" stroke-width="1.6"/>
+  </pattern>
+  <pattern id="unlit" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="1.3" fill="#2a1a07"/></pattern>
+  <pattern id="dots" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="2.05" fill="#fff"/></pattern>
+  <mask id="ledmask"><rect width="1600" height="1156" fill="url(#dots)"/></mask>
+  <filter id="glow" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="alu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dcdde0"/><stop offset=".5" stop-color="#9ea1a6"/><stop offset="1" stop-color="#d2d4d7"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset=".22" stop-color="#fff" stop-opacity="0"/><stop offset=".3" stop-color="#fff" stop-opacity=".16"/><stop offset=".38" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="round"><rect width="1600" height="1156" rx="22"/></clipPath>
+  <style>@keyframes b{50%{opacity:.1}}.blink{animation:b 1.2s steps(1) infinite}</style>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="1600" height="1156" fill="url(#tiles)"/>
+  <rect width="1600" height="44" fill="#2a2c30"/>
+  <rect x="160" y="32" width="520" height="5" rx="2" fill="#fbf8ee"/><rect x="920" y="32" width="520" height="5" rx="2" fill="#fbf8ee"/>
+  <rect y="1126" width="1600" height="30" fill="#77756f"/><rect y="1126" width="1600" height="10" fill="#f2b705"/>
+
+  <g transform="translate(40 70)">
+    <rect width="420" height="118" fill="#fff" stroke="#cfcbc2" stroke-width="2"/>
+    <text x="22" y="64" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="700" fill="#1d1d1f" letter-spacing="-1">yaqzan's</text>
+    <text x="24" y="92" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" fill="#6e6e73">projects, papers and the rest</text>
+    <rect x="22" y="102" width="90" height="7" fill="#dc241f"/><rect x="118" y="102" width="90" height="7" fill="#0019a8"/><rect x="214" y="102" width="90" height="7" fill="#e8a200"/><rect x="310" y="102" width="90" height="7" fill="#0098d4"/>
+  </g>
+  <g font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="19">
+    <text x="500" y="108" fill="#1d1d1f" font-weight="600">every line starts at aiub.</text>
+    <text x="500" y="136" fill="#6e6e73">each stop is one project, paper or event.</text>
+    <text x="500" y="164" fill="#6e6e73">click the map to ride it.</text>
+  </g>
+  <g transform="translate(1000 64)">
+    <line x1="140" y1="-20" x2="140" y2="0" stroke="#555" stroke-width="4"/><line x1="420" y1="-20" x2="420" y2="0" stroke="#555" stroke-width="4"/>
+    <rect width="560" height="126" rx="4" fill="#0b0b0b" stroke="#333" stroke-width="3"/>
+    <rect x="8" y="8" width="544" height="110" fill="url(#unlit)"/>
+    <g filter="url(#glow)"><g mask="url(#ledmask)" font-family="ui-monospace,Consolas,monospace" font-weight="800" fill="#ffb238">
+      <text x="22" y="52" font-size="34">yaqzan's network</text>
+      <text x="22" y="102" font-size="34">all lines</text>
+      <text x="538" y="102" font-size="34" text-anchor="end" class="blink">now</text>
+    </g></g>
+  </g>
+
+  <g transform="translate(40 214)">
+    <rect x="-14" y="-14" width="1548" height="900" rx="4" fill="url(#alu)"/>
+    <rect width="1520" height="872" fill="#fff"/>
+    <svg x="24" y="18" width="48" height="48" viewBox="-30 -30 60 60"><circle r="22" fill="none" stroke="#dc241f" stroke-width="9"/><rect x="-29" y="-6" width="58" height="12" fill="#0019a8"/></svg>
+    <text x="86" y="45" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="31" font-weight="700" fill="#1d1d1f" letter-spacing="-.5">yaqzan's network map</text>
+    <text x="87" y="69" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#6e6e73">projects, papers and things i showed up for</text>
+    <line x1="0" y1="84" x2="1520" y2="84" stroke="#d7d7db" stroke-width="2"/>
+    <svg x="0" y="84" width="1520" height="738" viewBox="51 72 1719 835"><style>.lbl{font:600 19px Inter,'Helvetica Neue',Arial,sans-serif;fill:#1d1d1f}.hubname{font-weight:700;font-size:20px;letter-spacing:1px}.tag{font:400 14.5px Inter,'Helvetica Neue',Arial,sans-serif;fill:#6e6e73}.lbl,.tag{paint-order:stroke;stroke:#ffffff;stroke-width:5px;stroke-linejoin:round}</style>
+<rect x="-200" y="-200" width="2000" height="1300" fill="#ffffff"/>
+<rect x="724" y="424" width="152" height="150" rx="12" fill="#ebebee"/>
+<path id="L-red" class="line" data-line="red" d="M800,470 L931.7,338.3 Q960,310 1000.0,310.0 L1260.0,310.0 Q1300,310 1328.3,281.7 L1371.7,238.3 Q1400,210 1440.0,210.0 L1570,210" fill="none" stroke="#dc241f" stroke-width="7" stroke-linejoin="round"/>
+<g class="cap" data-line="red"><path d="M1570,210 L1604.0,210.0" stroke="#dc241f" stroke-width="7" fill="none"/><path d="M1624.0,210.0 L1604.0,223.0 L1604.0,197.0Z" fill="#dc241f"/></g>
+<g class="badge" data-line="red"><rect x="1636" y="197" width="94" height="26" rx="2" fill="#dc241f"/><text x="1683" y="215" text-anchor="middle" fill="#fff" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" letter-spacing=".6">PROJECTS</text></g>
+<path id="L-blue" class="line" data-line="blue" d="M800,470 L668.3,338.3 Q640,310 600.0,310.0 L340.0,310.0 Q300,310 271.7,281.7 L200,210" fill="none" stroke="#0019a8" stroke-width="7" stroke-linejoin="round"/>
+<g class="cap" data-line="blue"><path d="M200,210 L176.0,186.0" stroke="#0019a8" stroke-width="7" fill="none"/><path d="M161.8,171.8 L185.2,176.8 L166.8,195.2Z" fill="#0019a8"/></g>
+<g class="badge" data-line="blue"><rect x="91" y="143" width="75" height="26" rx="2" fill="#0019a8"/><text x="128" y="161" text-anchor="middle" fill="#fff" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" letter-spacing=".6">PAPERS</text></g>
+<path id="L-yellow" class="line" data-line="yellow" d="M800,470 L668.3,601.7 Q640,630 600.0,630.0 L510.0,630.0 Q470,630 441.7,658.3 L370,730" fill="none" stroke="#e8a200" stroke-width="7" stroke-linejoin="round"/>
+<g class="cap" data-line="yellow"><path d="M370,730 L346.0,754.0" stroke="#e8a200" stroke-width="7" fill="none"/><path d="M331.8,768.2 L336.8,744.8 L355.2,763.2Z" fill="#e8a200"/></g>
+<g class="badge" data-line="yellow"><rect x="221" y="771" width="121" height="26" rx="2" fill="#e8a200"/><text x="282" y="789" text-anchor="middle" fill="#fff" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" letter-spacing=".6">OUT &amp; ABOUT</text></g>
+<path id="L-cyan" class="line" data-line="cyan" d="M800,470 L931.7,601.7 Q960,630 1000.0,630.0 L1090.0,630.0 Q1130,630 1158.3,658.3 L1230,730" fill="none" stroke="#0098d4" stroke-width="7" stroke-linejoin="round"/>
+<g class="cap" data-line="cyan"><path d="M1230,730 L1254.0,754.0" stroke="#0098d4" stroke-width="7" fill="none"/><path d="M1268.2,768.2 L1244.8,763.2 L1263.2,744.8Z" fill="#0098d4"/></g>
+<g class="badge" data-line="cyan"><rect x="1255" y="771" width="140" height="26" rx="2" fill="#0098d4"/><text x="1325" y="789" text-anchor="middle" fill="#fff" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" letter-spacing=".6">SIDE PROJECTS</text></g>
+<rect x="-15" y="-6.5" width="30" height="13" rx="2" fill="#dc241f" stroke="#fff" stroke-width="2"><animateMotion path="M800,470 L931.7,338.3 Q960,310 1000.0,310.0 L1260.0,310.0 Q1300,310 1328.3,281.7 L1371.7,238.3 Q1400,210 1440.0,210.0 L1570,210" dur="16.0s" begin="-0.0s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;0" keyTimes="0;.5;1" calcMode="linear"/></rect><rect x="-15" y="-6.5" width="30" height="13" rx="2" fill="#0019a8" stroke="#fff" stroke-width="2"><animateMotion path="M800,470 L668.3,338.3 Q640,310 600.0,310.0 L340.0,310.0 Q300,310 271.7,281.7 L200,210" dur="12.9s" begin="-2.3s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;0" keyTimes="0;.5;1" calcMode="linear"/></rect><rect x="-15" y="-6.5" width="30" height="13" rx="2" fill="#e8a200" stroke="#fff" stroke-width="2"><animateMotion path="M800,470 L668.3,601.7 Q640,630 600.0,630.0 L510.0,630.0 Q470,630 441.7,658.3 L370,730" dur="10.0s" begin="-4.6s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;0" keyTimes="0;.5;1" calcMode="linear"/></rect><rect x="-15" y="-6.5" width="30" height="13" rx="2" fill="#0098d4" stroke="#fff" stroke-width="2"><animateMotion path="M800,470 L931.7,601.7 Q960,630 1000.0,630.0 L1090.0,630.0 Q1130,630 1158.3,658.3 L1230,730" dur="10.0s" begin="-6.9s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;0" keyTimes="0;.5;1" calcMode="linear"/></rect>
+<g><circle class="sh" cx="800" cy="470" r="15" fill="#fff" stroke="#1d1d1f" stroke-width="3.2"/><circle cx="800" cy="470" r="26" fill="transparent"/><text x="800" y="540" text-anchor="middle" class="lbl hubname">AIUB</text><text x="800" y="560" text-anchor="middle" class="tag">bsc cse, class of 2027</text></g>
+<g><circle class="sh" cx="960" cy="310" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="960" cy="310" r="26" fill="transparent"/><text x="960" y="274" text-anchor="middle" class="lbl">pm2.5 monitor</text><text x="960" y="292" text-anchor="middle" class="tag">air quality alerts, esp32</text></g>
+<g><circle class="sh" cx="1130" cy="310" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="1130" cy="310" r="26" fill="transparent"/><text x="1130" y="340" text-anchor="middle" class="lbl">robotic hand</text><text x="1130" y="358" text-anchor="middle" class="tag">copies your hand, no gloves</text></g>
+<g><circle class="sh" cx="1400" cy="210" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="1400" cy="210" r="26" fill="transparent"/><text x="1400" y="174" text-anchor="middle" class="lbl">oshudbot</text><text x="1400" y="192" text-anchor="middle" class="tag">bangla medicine bot</text></g>
+<g><circle class="sh" cx="1570" cy="210" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="1570" cy="210" r="26" fill="transparent"/><text x="1570" y="174" text-anchor="middle" class="lbl">medease bd</text><text x="1570" y="192" text-anchor="middle" class="tag">offline medicine llm</text></g>
+<g><circle class="sh" cx="1300" cy="310" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="1300" cy="310" r="26" fill="transparent"/><text x="1300" y="340" text-anchor="middle" class="lbl">vehicle recognition</text><text x="1300" y="358" text-anchor="middle" class="tag">yolo + convnext</text></g>
+<g><circle class="sh" cx="640" cy="310" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="640" cy="310" r="26" fill="transparent"/><text x="640" y="274" text-anchor="middle" class="lbl">gesture robotic hand</text><text x="640" y="292" text-anchor="middle" class="tag">ieee qpain 2026</text></g>
+<g><circle class="sh" cx="470" cy="310" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="470" cy="310" r="26" fill="transparent"/><text x="470" y="340" text-anchor="middle" class="lbl">blood-like solution</text><text x="470" y="358" text-anchor="middle" class="tag">analytical chemistry letters</text></g>
+<g><circle class="sh" cx="300" cy="310" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="300" cy="310" r="26" fill="transparent"/><text x="300" y="340" text-anchor="middle" class="lbl">agile + waterfall</text><text x="300" y="358" text-anchor="middle" class="tag">ieom bangladesh 2025</text></g>
+<g><circle class="sh" cx="200" cy="210" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="200" cy="210" r="26" fill="transparent"/><text x="216" y="211" text-anchor="start" class="lbl">human-ai animation</text><text x="216" y="229" text-anchor="start" class="tag">icctass 2025</text></g>
+<g><circle class="sh" cx="640" cy="630" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="640" cy="630" r="26" fill="transparent"/><text x="640" y="660" text-anchor="middle" class="lbl">undp roundtable</text><text x="640" y="678" text-anchor="middle" class="tag">youth and the sdgs</text></g>
+<g><circle class="sh" cx="470" cy="630" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="470" cy="630" r="26" fill="transparent"/><text x="470" y="594" text-anchor="middle" class="lbl">u.s. embassy</text><text x="470" y="612" text-anchor="middle" class="tag">ai workshop</text></g>
+<g><circle class="sh" cx="370" cy="730" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="370" cy="730" r="26" fill="transparent"/><text x="386" y="731" text-anchor="start" class="lbl">english club</text><text x="386" y="749" text-anchor="start" class="tag">organiser, 10+ events</text></g>
+<g><circle class="sh" cx="960" cy="630" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="960" cy="630" r="26" fill="transparent"/><text x="960" y="660" text-anchor="middle" class="lbl">markdown converter</text><text x="960" y="678" text-anchor="middle" class="tag">anything to markdown</text></g>
+<g><circle class="sh" cx="1130" cy="630" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="1130" cy="630" r="26" fill="transparent"/><text x="1130" y="594" text-anchor="middle" class="lbl">who should count more</text><text x="1130" y="612" text-anchor="middle" class="tag">voting sim, playable</text></g>
+<g><circle class="sh" cx="1230" cy="730" r="8" fill="#fff" stroke="#1d1d1f" stroke-width="2.8"/><circle cx="1230" cy="730" r="26" fill="transparent"/><text x="1214" y="731" text-anchor="end" class="lbl">tictactoe ∞</text><text x="1214" y="749" text-anchor="end" class="tag">4 pieces, then move them</text></g></svg>
+    <line x1="0" y1="822" x2="1520" y2="822" stroke="#d7d7db" stroke-width="2"/>
+    <g transform="translate(28 853)"><rect width="30" height="7" y="-8" fill="#dc241f"/><text x="40" y="0" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#1d1d1f">projects</text></g><g transform="translate(228 853)"><rect width="30" height="7" y="-8" fill="#0019a8"/><text x="40" y="0" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#1d1d1f">papers</text></g><g transform="translate(428 853)"><rect width="30" height="7" y="-8" fill="#e8a200"/><text x="40" y="0" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#1d1d1f">out &amp; about</text></g><g transform="translate(628 853)"><rect width="30" height="7" y="-8" fill="#0098d4"/><text x="40" y="0" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#1d1d1f">side projects</text></g>
+    <text x="1496" y="853" text-anchor="end" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" fill="#6e6e73">click to ride →</text>
+    <rect width="1520" height="872" fill="url(#glass)"/>
+  </g>
+</g>
+</svg>

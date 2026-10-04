@@ -1,1 +1,1 @@
-<a href="https://yaqzans.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/metro-dark.svg"><img src="assets/metro-light.svg" width="100%" alt="yaqzan's metro: a mini metro style map where every station is a project, paper or thing I did. click to ride"></picture></a>
+<a href="https://yaqzans.github.io"><img src="assets/map.svg" width="100%" alt="yaqzan's network map: projects, papers and the rest as a transit map, every line starting at aiub. click to ride"></a>
