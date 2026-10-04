@@ -1,1 +1,1 @@
-<a href="https://yaqzans.github.io"><img src="assets/room.svg" width="100%" alt="yaqzan's room: a small retro room at night, a tv with a bouncing logo. click to come in"></a>
+<a href="https://yaqzans.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/metro-dark.svg"><img src="assets/metro-light.svg" width="100%" alt="yaqzan's metro: a mini metro style map where every station is a project, paper or thing I did. click to ride"></picture></a>
