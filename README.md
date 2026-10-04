@@ -1,1 +1,1 @@
-<a href="https://yaqzans.github.io"><img src="assets/map-7b16f686.svg" width="100%" alt="Yaqzan&#39;s Metro: projects, papers and everything since 2023 as a metro map, time running left to right. Click to ride."></a>
+<a href="https://yaqzans.github.io"><img src="assets/map-4362a5ec.svg" width="100%" alt="Shamvi&#39;s map: projects and papers drawn as a metro map, lines are the languages behind them. Click to ride."></a>
